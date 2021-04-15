@@ -6,12 +6,16 @@ h1, h2, h3 {
   font-family: "Indie Flower", cursive;
 }
 
+h1 {
+  color: black;
+}
+
 h2 {
   color: #a1a7c7;
 }
 
 header h2 {
-  color: #b8b3db;
+  color: black;
 }
 
 .navbar {
@@ -19,13 +23,13 @@ header h2 {
 }
 
 .site-footer {
-  background-image: linear-gradient(#2d15e2, rgb(175, 158, 236));
+  background-image: linear-gradient(#37a9dd, #91aeb6);
   padding: 20px 0;
 }
 
 .jumbotron {
   padding: 30px;
-  background-image: linear-gradient(to top, #5637DD, #5637DD, #5637DD);
+  background-image: linear-gradient(to top, #91aeb6, #37a9dd, #37c4dd);
   color: white;
   margin: 0;
 }
