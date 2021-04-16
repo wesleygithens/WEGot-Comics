@@ -12,7 +12,7 @@
     <!-- Additional CSS must be placed after Bootstrap CSS -->
     <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
     <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Indie+Flower|Open+Sans" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Indie+Flower|Coiny" />
     <link rel="stylesheet" href="css/styles.css" />
     
       <title>WEGot Comics</title>
@@ -22,7 +22,7 @@
     
   <style>
     body {
-      background-image: url('img/Marvel&DC_01.png');
+      background-image: url('img/Marvel&DC_02.png');
       background-image: no-repeat;
       background-attachment: fixed;
       background-size: cover;
@@ -43,7 +43,7 @@
           </div>
           <div class="col-md-4 col-xl-2 nt-4">
             <!-- Button trigger -->
-            <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#signupModal">
+            <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#currentIssuesModal">
               Current Issues
             </button>
             <h1> - Or - </h1>
@@ -125,11 +125,11 @@
             <div class="container">
                 <a class="navbar-brand" href="#"><img src="img/Hero_02.png" height="30" width="30" /></a>
     
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nucampNavbar">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#wegotNavbar">
                     <span class="navbar-toggler-icon"> </span>
                 </button>
     
-                <div class="collapse navbar-collapse" id="nucampNavbar">
+                <div class="collapse navbar-collapse" id="wegotNavbar">
                     <ul class="navbar-nav">
                         <li class="nav-item active"><a class="nav-link" href="#"><i class="fa fa-home fa-lg"></i>Home</a>
                         </li>
@@ -148,6 +148,77 @@
             </div>
         </nav>          
 
+        <div id="loginModal" class="modal fade" role="dialog">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h3 class="modal-title">Login</h3>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="container-fluid">
+                            <form>
+                                <div class="form-row">
+                                    <div class="form-group col-12">
+                                        <label class="sr-only" for="loginEmail">Email Address</label>
+                                        <input type="email" class="form-control form-control-sm" id="loginEmail"
+                                            placeholder="Enter email">
+                                    </div>
+                                    <div class="form-group col-12">
+                                        <label class="sr-only" for="loginPassword">Password</label>
+                                        <input type="password" class="form-control form-control-sm" id="loginPassword"
+                                            placeholder="Password">
+                                    </div>
+                                    <div class="col">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox">
+                                            <label class="form-check-label">Remember me</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-row">
+                                    <button type="button" class="btn btn-secondary btn-sm ml-auto" data
+                                        dismiss="modal">Cancel</button>
+                                    <button type="submit" class="btn btn-primary btn-sm ml-1">Sign in</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row row-content align-items-center">
+            <div class="col-sm-4 order-sm-first col-md-3">
+                <h2>Comic of the Week</h2>
+            </div>
+            <div class="col">
+                <div class="media">
+                    <div class="media-body align-self-center">
+                        <h3>Our pick of the week.</h3>
+    
+                        <p class="d-block d-sm-block">We keep a running vot on the best comic each week.</p>
+                    </div>
+                    <img class="d-flex ml-3 img-thumbnail" src="img/COTW_03.png" alt="React Lake" />
+    
+                </div>
+            </div>
+        </div>
+
+        <div class="row row-content align-items-center">
+            <div class="col-sm-4 order-sm-last col-md-3">
+                <h2 class="text-sm-right">Our Community Partners</h2>
+            </div>
+            <div class="col">
+                <div class="media">
+                    <a href="https://www.previewsworld.com/" ><img class="d-flex mr-3 img-thumbnail" src="img/PreviewsWorld_01.png" alt="Previews World" /> <a/>
+                    <div class="media-body align-self-center">
+                        <h3>Previews World</h3>
+                        <p class="d-none d-sm-block">Previews World has the latest and greatest industry news.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
 
 
     <footer class="site-footer">
@@ -174,10 +245,10 @@
                           class="fa fa-youtube"></i></a>
               </div>
               <div class="col-sm-4 text-center">
-                  <a role="button" class="btn btn-link" href="tel:+12065551234"><i
-                          class="fa fa-phone fa-lg text-primary"></i> 1-206-555-1234</a><br />
-                  <a role="button" class="btn btn-link" href="mailto:campsites@nucamp.co"><i
-                          class="fa fa-envelope-o fa-lg text-primary"></i> campsites@nucamp.co</a>
+                  <a role="button" class="btn btn-link" href="tel:+15555554444"><i
+                          class="fa fa-phone fa-lg text-primary"></i> 1-555-555-4444</a><br />
+                  <a role="button" class="btn btn-link" href="mailto:WEGot@comics.co">
+                      <i class="fa fa-envelope-o fa-lg text-primary"></i> WEGot@comics.co</a>
               </div>
           </div>
       </div>      

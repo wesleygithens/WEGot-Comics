@@ -1,9 +1,9 @@
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Coiny", sans-serif;
 }
 
 h1, h2, h3 {
-  font-family: "Indie Flower", cursive;
+  font-family: "Coiny", cursive;
 }
 
 h1 {
@@ -11,7 +11,7 @@ h1 {
 }
 
 h2 {
-  color: #a1a7c7;
+  color: black;
 }
 
 header h2 {
