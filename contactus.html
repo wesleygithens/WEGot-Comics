@@ -15,12 +15,21 @@
     <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
     <link rel="stylesheet" href="css/styles.css" />
     <!-- endbuild -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Coiny|Open+Sans" />
 
-    <title>WEGot Comics: For anyone and everyone!</title>
+    <title>WEGot Comics</title>
 </head>
 
 <body>
+
+    <style>
+        body {
+          background-image: url('img/Marvel&DC_02.png');
+          background-image: no-repeat;
+          background-attachment: fixed;
+          background-size: cover;
+        }
+    </style> 
 
     <header class="jumbotron jumbotron-fluid">
         <div class="container">
@@ -63,8 +72,8 @@
         </div>
 
         <div class="row row-content align-items-center">
-            <div class="col-sm-4">
-                <h5>Our Address</h5>
+            <div class="col-sm-4 bg-info text-white rounded">
+                <h5 class="mt-3">Our Address</h5>
                 <address>
                     2 Comics Way<br />
                     Seattle, WA 98001<br />
@@ -72,8 +81,8 @@
                 </address>
             </div>
             <div class="col">
-				<a role="button" class="btn btn-link" href="tel:!15553334444"><i class="fa fa-phone"></i> 1-555-333-4444<br></a>
-            	<a role="button" class="btn btn-link" href="mailto: WEGot@comics.co"><i class="fa fa-envelope-o"></i> WEGot@comics.co</a>
+				<a role="button" class="btn btn-link bg-info text-white rounded mx-auto" href="tel:!15553334444"><i class="fa fa-phone"></i> 1-555-333-4444<br></a>
+            	<a role="button" class="btn btn-link bg-info text-white rounded mx-auto" href="mailto: WEGot@comics.co"><i class="fa fa-envelope-o"></i> WEGot@comics.co</a>
             </div>
         </div>
 
@@ -82,9 +91,9 @@
                 <h2>Send us your Feedback</h2>
                 <hr />
             </div>
-                <div class="col-md-10">
+                <div class="col-md-10 bg-info text-white rounded mx-auto">
                     <form>
-                        <div class="form-group row">
+                        <div class="form-group row mt-3">
                             <label for="firstName" class="col-md-2 col-form-label">First Name</label>
                             <div class="col-md-10">
                                 <input type="text" id="firstName" name="firstName" placeholder="First Name" />

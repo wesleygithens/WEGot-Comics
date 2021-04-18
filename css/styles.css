@@ -19,7 +19,7 @@ header h2 {
 }
 
 .navbar {
-  background-color: #901CAD;
+  background-color: #4d7fa0;
 }
 
 .site-footer {
@@ -59,4 +59,7 @@ header h2 {
   padding-right: 0;
 }
 
+.headline {
+  text-align: center;
+}
 

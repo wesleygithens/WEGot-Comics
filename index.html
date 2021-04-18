@@ -20,7 +20,7 @@
 
 <body>
     
-  <style>
+    <style>
     body {
       background-image: url('img/Marvel&DC_02.png');
       background-image: no-repeat;
@@ -41,15 +41,11 @@
             <h1>WEGot Comics</h1>
             <h2>for anyone and everyone</h2>
           </div>
-          <div class="col-md-4 col-xl-2 nt-4">
+          <div class="col-md-4 col-xl-2 nt-4 align-self-center">
             <!-- Button trigger -->
             <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#currentIssuesModal">
               Current Issues
-            </button>
-            <h1> - Or - </h1>
-            <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#signupModal">
-              Upcoming
-            </button>                    
+            </button>                  
           </div>
         </div>        
       </div>
@@ -60,66 +56,20 @@
             <div id="currentIssuesModal" class="modal fade" role="dialog">
               <div class="modal-dialog modal-lg" role="document">
                   <div class="modal-content">
-                      <div class="modal-header text-white bg-info">
-                          <h3 class="modal-title">Current Issues</h3>
+                      <div class="modal-header text-white text-center bg-info">
+                          <h3 class="modal-title w-100">Current Issues</h3>
                           <button type="button" class="close" data-dismiss="modal">&times;</button>
                       </div>
-                      <div class="modal-body">
-                          <div class="container-fluid">
-                              <form id="reserveForm">
-                                  <div class="form-group row">
-                                      <label for="userId" class="text-black col-sm-6 col-form-label">User Id</label>
-                                      <div class="col">
+                          <div class="container">
+                            
+                                      <iframe src="https://leagueofcomicgeeks.com/comics/new-comics" height="800" width="100%"></iframe>
 
-                                          <select name="NumCampers" id="NumCampers" class="form-control">
-                                                  <option selected>Select...</option>
-                                                  <option value="1">1</option>
-                                                  <option value="1">2</option>
-                                                  <option value="1">3</option>
-                                                  <option value="1">4</option>
-                                                  <option value="1">5</option>
-                                                  <option value="1">6</option>
-                                          </select>
-                                      </div>
-                                  </div>
-
-                                  <div class="form-group row">
-                                      <label for="date" class="col-sm-6 col-form-label">
-                                          Date
-                                      </label>
-                                          <div class="col">
-                                               <input type="date" class="form-control">
-                                          </div>
-                                  </div>
-
-                                  <div class="form-group row">
-                                      <label for="campsiteType" class="col-sm-6 col-form-label">
-                                          Campsite Type
-                                      </label>
-
-                                      <div class="col-2 btn-group btn-group-toggle" data-toggle="buttons">
-                                          <label class="btn btn-success active cols-sm-6 col-form-label">
-                                              <input type="radio" name="siteType" id="siteTent" value="Tent" checked>Tent
-                                          </label>
-                                          <label class="btn btn-primary cols-sm-6 col-form-label">
-                                              <input type="radio" name="siteType" id="siteRV" value="RV">RV
-                                          </label>
-                                      </div>
-                                  </div>
-
-                                  <div class="form-group row">
-                                      <div class="col col-form-label">
-                                          <button type="reset" class="btn btn-secondary">Cancel</button>
-                                          <button type="submit" class="btn btn-primary">Submit</button>
-                                      </div>
-
-                                  </div>
-                              </form>
                           </div>
-                      </div>
                   </div>
               </div>
           </div>
+
+
 
           <nav class="navbar navbar-expand-sm navbar-dark sticky-top">
             <div class="container">
@@ -189,17 +139,17 @@
         </div>
 
         <div class="row row-content align-items-center">
-            <div class="col-sm-4 order-sm-first col-md-3">
-                <h2>Comic of the Week</h2>
+            <div class="col-sm-4 order-sm-first col-md-3 mx-5 bg-info rounded">
+                <h2 class="text-warning">Comic of the Week</h2>
             </div>
             <div class="col">
                 <div class="media">
-                    <div class="media-body align-self-center">
+                    <div class="media-body align-self-center bg-info text-white rounded">
                         <h3>Our pick of the week.</h3>
     
-                        <p class="d-block d-sm-block">We keep a running vot on the best comic each week.</p>
+                        <p class="d-block d-sm-block">We keep a running vote on the best comic each week.  Each week you can join us in voting for your favorite comic that week!  We keep a running total to show who is winning and who has won in previous weeks.  To vote click the COMIC OF THE WEEK button on the right.</p>
                     </div>
-                    <img class="d-flex ml-3 img-thumbnail" src="img/COTW_03.png" alt="React Lake" />
+                    <img class="d-flex mx-5 img-thumbnail" src="img/COTW_03.png" alt="React Lake" />
     
                 </div>
             </div>
@@ -211,10 +161,10 @@
             </div>
             <div class="col">
                 <div class="media">
-                    <a href="https://www.previewsworld.com/" ><img class="d-flex mr-3 img-thumbnail" src="img/PreviewsWorld_01.png" alt="Previews World" /> <a/>
+                    <a href="https://www.previewsworld.com/" ><img class="d-flex mr-3 img-thumbnail" src="img/LoCG_01.png" alt="Previews World" /> </a>
                     <div class="media-body align-self-center">
                         <h3>Previews World</h3>
-                        <p class="d-none d-sm-block">Previews World has the latest and greatest industry news.</p>
+                        <p class="d-none d-sm-block">League of Comic Geeks is a social site to keep track of your comics and discuss the industry with others.  Best of all - IT'S FREE!</p>
                     </div>
                 </div>
             </div>
@@ -245,10 +195,10 @@
                           class="fa fa-youtube"></i></a>
               </div>
               <div class="col-sm-4 text-center">
-                  <a role="button" class="btn btn-link" href="tel:+15555554444"><i
-                          class="fa fa-phone fa-lg text-primary"></i> 1-555-555-4444</a><br />
-                  <a role="button" class="btn btn-link" href="mailto:WEGot@comics.co">
-                      <i class="fa fa-envelope-o fa-lg text-primary"></i> WEGot@comics.co</a>
+                  <a role="button" class="btn btn-link text-warning" href="tel:+15555554444"><i
+                          class="fa fa-phone fa-lg text-warning"></i> 1-555-555-4444</a><br />
+                  <a role="button" class="btn btn-link text-danger" href="mailto:WEGot@comics.co">
+                      <i class="fa fa-envelope-o fa-lg text-danger"></i> WEGot@comics.co</a>
               </div>
           </div>
       </div>      
